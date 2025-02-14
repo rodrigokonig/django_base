@@ -42,6 +42,10 @@ Escolha o Venv
 4 - Instale as Dependências:
 pip install -r requirements.txt
 
+5 - Criar uma nova SECRET_KEY
+https://djecrety.ir/
+Crie uma nova SECRET_KEY e insira no arquivo .env
+
 
 === TESTE DE EXECUÇÃO ===
 
