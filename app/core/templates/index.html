@@ -1,0 +1,12 @@
+{% extends "layouts/em_branco.html" %}
+
+{% block conteudo_pagina %}
+    <h1>Conteúdo da Página <strong> 
+        {% if not request.path == '/' %}
+            {{ request.path|upper }}
+        {% else %}
+            PRINCIPAL
+        {% endif %}</strong>
+    </h1>
+    <p>Este é o conteúdo da página  {{ request.path }}.</p>
+{% endblock %}
